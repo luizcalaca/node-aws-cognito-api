@@ -1,0 +1,18 @@
+{
+  "name": "cognito",
+  "description": "cognito",
+  "version": "8.10.0",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^4.4.0",
+    "async": "^3.2.0",
+    "aws-sdk": "^2.751.0",
+    "dotenv": "8.2.0",
+    "express": "^4.18.1",
+    "jwt-decode": "^2.2.0",
+    "node-fetch": "^2.6.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "serverless-plugin-warmup": "^4.9.0"
+  }
+}
