@@ -1,5 +1,21 @@
-# aws-cognito-node
-aws cognito node.js example
+# Node.js API Express using AWS Cognito for authentication
 
-# Full tutorial
-https://medium.com/@onexlab.io/aws-cognito-node-js-cc05760b61c3
+## Routes
+
+```
+/api/signup
+```
+```
+/api/verify
+```
+```
+/api/signin
+```
+
+## How to run
+
+```
+node index.js
+```
+
+
