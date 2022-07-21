@@ -1,7 +1,8 @@
 const AwsConfig = require('../helpers/AwsConfig');
+
 function signUp(email, password, agent = 'none') {
   return new Promise((resolve) => {
-    AwsConfig.initAWS ();
+    AwsConfig.initAWS();
     AwsConfig.setCognitoAttributeList(email,agent);
     AwsConfig.getUserPool().signUp(email, password, AwsConfig.getCognitoAttributeList(), null, function(err, result){
       if (err) {

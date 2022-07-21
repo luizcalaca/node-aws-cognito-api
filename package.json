@@ -2,6 +2,9 @@
   "name": "cognito",
   "description": "cognito",
   "version": "8.10.0",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "amazon-cognito-identity-js": "^4.4.0",
     "async": "^3.2.0",

@@ -48,7 +48,7 @@ function getAuthDetails(email, password) {
 }
 
 function initAWS (region = process.env.AWS_COGNITO_REGION, identityPoolId = process.env.AWS_COGNITO_IDENTITY_POOL_ID) {
-  AWS.config.region = region; // Region
+  AWS.config.region = region;
   AWS.config.credentials = new AWS.CognitoIdentityCredentials({
     IdentityPoolId: identityPoolId,
   });
